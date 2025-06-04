@@ -41,6 +41,13 @@ REACT_APP_OPENAI_API_KEY=your-openai-api-key-here
 ✅ Ensure you restart npm start after saving .env
 
 🛠️ Installation & Usage
-Clone the repo:
+1 .Clone the repo:
    git clone https://github.com/your-username/ai-image-generator.git
    cd ai-image-generator
+
+2.Install dependencies:
+     npm install
+  Run the app:
+     npm start
+
+>>>Open http://localhost:3000 to use the app.
