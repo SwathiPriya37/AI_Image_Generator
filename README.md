@@ -51,3 +51,10 @@ REACT_APP_OPENAI_API_KEY=your-openai-api-key-here
      npm start
 
 >>>Open http://localhost:3000 to use the app.
+
+📸 Example
+
+⚠️ Note
+Ensure you have a valid OpenAI API key.
+
+The image generation may take a few seconds depending on OpenAI's server.
