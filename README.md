@@ -18,3 +18,23 @@ A simple React-based AI Image Generator using the OpenAI Image API. Describe an 
 
 ## 📂 Project Structure
 
+src/
+│
+├── components/
+│ └── ImageGenerator/
+│ ├── ImageGenerator.jsx
+│ └── ImageGenerator.css
+│
+├── Assets/
+│ └── default_image.svg
+│
+├── App.js
+└── index.js
+
+
+## 🔐 Setup Environment Variables
+
+Create a `.env` file in the **root** of your project:
+
+```env
+REACT_APP_OPENAI_API_KEY=your-openai-api-key-here
