@@ -1,60 +1,58 @@
-# 🧠 AI Image Generator
+# AI Image Generator
 
-A simple React-based AI Image Generator using the OpenAI Image API. Describe an image, and the AI will generate it for you!
+A simple React-based AI Image Generator using the Hugging Face API. Describe an image, and the AI will generate it for you!
 
-## 🚀 Features
+## Features
 
 - React frontend
-- Integration with OpenAI DALL·E API
+- Integration with OHugging Face
 - Dynamic image generation from user input
 - Responsive UI
 
-## 📦 Tech Stack
+## Tech Stack
 
 - React JS
 - CSS
-- OpenAI DALL·E API
-- dotenv for managing environment variables
+- Hugging Face
 
-## 📂 Project Structure
+## Project Structure
 
+```
 src/
-│
 ├── components/
-│ └── ImageGenerator/
-│ ├── ImageGenerator.jsx
-│ └── ImageGenerator.css
-│
+│   └── ImageGenerator/
+│       ├── ImageGenerator.jsx
+│       └── ImageGenerator.css
 ├── Assets/
-│ └── default_image.svg
-│
+│   └── default_image.svg
 ├── App.js
 └── index.js
+```
 
+## Setup Environment Variables
 
-## 🔐 Setup Environment Variables
+Create a `.env` file in the root of your project:
 
-Create a `.env` file in the **root** of your project:
-
-```env
+```
 REACT_APP_OPENAI_API_KEY=your-openai-api-key-here
-✅ Ensure you restart npm start after saving .env
+```
 
-🛠️ Installation & Usage
-1 .Clone the repo:
+**Ensure you restart npm start after saving .env**
+
+## Installation & Usage
+
+1. Clone the repo:
+   ```
    git clone https://github.com/your-username/ai-image-generator.git
    cd ai-image-generator
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the app:
+   ```
+   npm start
+   ```
 
-2.Install dependencies:
-     npm install
-  Run the app:
-     npm start
-
->>>Open http://localhost:3000 to use the app.
-
-📸 Example
-
-⚠️ Note
-Ensure you have a valid OpenAI API key.
-
-The image generation may take a few seconds depending on OpenAI's server.
+Open http://localhost:3000 to use the app.
