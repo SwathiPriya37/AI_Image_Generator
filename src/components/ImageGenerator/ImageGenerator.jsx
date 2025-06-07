@@ -11,7 +11,7 @@ const ImageGenerator = () => {
     const prompt = inputRef.current.value.trim();
     if (!prompt) return;
 
-    setLoading(true);
+    setLoading(true);  
 
     try {
       const response = await fetch(
